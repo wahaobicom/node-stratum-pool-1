@@ -30,11 +30,14 @@
     },
     "dependencies": {
         "async": "^2.6.1",
+        "blake2": "*",
         "base58-native": "^0.1.4",
+        "bitcoinjs-lib": "*",
         "bignum": "^0.13.0",
-        "bitgo-utxo-lib": "git+https://github.com/VerusCoin/bitgo-utxo-lib.git",
+        "bitgo-utxo-lib": "git+https://github.com/miketout/bitgo-utxo-lib.git",
         "equihashverify": "git+https://github.com/s-nomp/equihashverify.git",
         "verushash": "git+https://github.com/VerusCoin/verushash-node",
+        "multi-hashing": "https://github.com/wahaobi/node-multi-hashing-yespower",
         "merkle-bitcoin": "^1.0.2",
         "promise": "^8.0.1"
     },
